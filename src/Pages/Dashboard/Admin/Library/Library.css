@@ -1,0 +1,59 @@
+.model-add .model-container { width: 500px; }
+.model .input-box { margin-bottom: 20px; }
+.model .input-box label { display: block; padding-bottom: 5px; font-size: 13px; color: #999; }
+.model .input-box input,
+.model .input-box textarea,
+.model .input-box select { width: 100%; border: 1px solid #EEE; border-radius: 3px; padding: 10px; outline: none; }
+.model .input-box input[type=file] { border: none; padding: 0; }
+
+.model-add .file_name { margin: 0; font-size: 12px; color: #A90CAA; }
+.add button { margin: 0 0 20px; }
+
+.secondary-btn { display: inline-block!important; border: none; background: transparent; border: 1px solid #A90CAA; color: #A90CAA!important; padding: 3px 40px; border-radius: 5px; font-size: 12px; cursor: pointer; outline: none; transition: all .2s ease; }
+.secondary-btn:hover { color: #FFF!important; background: #A90CAA; }
+.courses-list { list-style: none; padding: 0 0 40px; }
+.filter { text-align: center; }
+.filter .filter-dropdown { margin-bottom: 40px; font-size: 14px; }
+.ui.selection.dropdown .menu > .item { font-size: 13px; }
+
+.course-li { padding: 20px 20px; border-bottom: 1px solid #EEE; position: relative; color: #333; font-size: 13px; cursor: pointer; }
+.course-li > i,
+.course-li > a i { position: absolute; top: 40px; left: 10px; transform: translateY(-50%); color: #1E75A7; cursor: pointer; padding: 10px; font-size: 15px; transition: all .3s ease; }
+.course-li > i:hover,
+.course-li > a i:hover { transform: translateY(-50%) scale(1.2); color: #3FB1CA; }
+
+.model { position: fixed; width: 100vw; height: 100vh; top: 0; left: 0; z-index: 12; background: rgba( 0, 0, 0, .7 ); opacity: 0; visibility: hidden; transition: all .3s ease; }
+.model.active { opacity: 1; visibility: visible; }
+.model .model-container { width: 500px; max-width: 100%; max-height: 90vh; overflow-y: auto; background: #FFF; position: absolute; top: 50%; left: 50%; transform: translate( -50%, -50% ) scale( .9 ); padding: 40px 25px; border-radius: 3px; transition: all 100s ease; }
+.model.active .model-container { transform: translate( -50%, -50% ) scale( 1 ); transition-duration: .3s; }
+.model .model-container .close-model { position: absolute; top: 5px; right: 20px; cursor: pointer; font-size: 30px; font-weight: 100; color: #999; }
+.model h2 { margin: 0 0 20px; text-align: center; font-weight: normal; color: #444; }
+
+table { width: 100%; max-width: 100%; border: 1px solid #DDD; margin: 0; border-collapse: collapse; direction: ltr; }
+table tr { border-bottom: 1px solid #DDD; }
+table.table tbody tr { cursor: pointer; }
+table tr.total { background: #F1F1F1; }
+table tr td,
+table tr th { line-height: 50px; font-size: 12px; color: #555; border-right: 1px solid #DDD; text-align: center; }
+table tr th { font-weight: bold; font-size: 13px; color: #111; }
+table:not(.table) tr td:first-of-type { color: #222; text-align: left; padding-left: 30px; width: 150px }
+
+.add button {
+    margin: 0 0 20px;
+}
+.continue { text-align: center; }
+.continue button {
+    margin-top: 30px;
+    background: #A90CAA;
+    border: 1px solid #A90CAA;
+    color: #fff;
+    padding: 5px 50px;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.ui.search.dropdown { min-width: 12em; }

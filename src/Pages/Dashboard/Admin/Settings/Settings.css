@@ -1,0 +1,23 @@
+.settings { position: relative; }
+.settings label { font-size: 14px; }
+.settings .input-box textarea { width: 100%; margin-top: 10px; border: none; background: #F7F7F7; resize: vertical; outline: none; border-radius: 5px; padding: 20px; transition: all .3s ease; } 
+.settings .input-box textarea:hover,
+.settings .input-box textarea:focus { background: #F1F1F1; }
+
+.settings > ul { margin-bottom: 50px; }
+.settings ul { list-style: none; padding: 40px; background: #F7F7F7; }
+.settings > ul > li { line-height: 40px; border-bottom: 1px solid #EEE; }
+.settings > ul > li > span { padding: 10px 20px; display: block; }
+.settings > ul ul { padding: 20px 40px; list-style: inside; }
+.settings > ul ul li { line-height: 45px; }
+.settings > ul > li > input,
+.settings > ul ul li input { background: #FFF; border: none; height: 35px; border: 1px solid #EEE; border-radius: 3px; width: 200px; padding: 0 10px; outline: none; transition: all .3s ease; }
+.settings > ul > li > input:focus,
+.settings > ul ul li input:focus { border-color: #A90CAA; }
+.settings > ul > li > input { margin: 20px 0; }
+.settings ul li { position: relative; }
+.settings ul li:last-of-type { border: none; }
+
+.settings .actions { position: absolute; top: 0; left: 0; }
+.settings .actions i { color: red; color: #1E75A7; cursor: pointer; padding-right: 10px; font-size: 13px; transition: all .3s ease; }
+.settings .actions i:hover { transform: translateY(-50%) scale(1.2); color: #A90CAA; }

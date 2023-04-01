@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "milestone";
+  /* src:url("../fonts/milestone.eot");
+  src:url("../fonts/milestone.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/milestone.woff") format("woff"), */
+  src:  url("../fonts/milestone.otf") format("truetype");
+    /* url("../fonts/milestone.svg#milestone") format("svg"); */
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "milestone" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "milestone" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chair:before {
+  content: "\61";
+}
+.icon-download:before {
+  content: "\62";
+}
+.icon-logout:before {
+  content: "\63";
+}
+.icon-more:before {
+  content: "\64";
+}
+.icon-delete:before {
+  content: "\65";
+}
+.icon-edit:before {
+  content: "\66";
+}
+.icon-bars:before {
+  content: "\67";
+}
+
+.icon-eye:before {
+  content: "\68";
+}
+.icon-time:before {
+  content: "\69";
+}
+
+.icon-users:before {
+    content: "\6a";
+  }

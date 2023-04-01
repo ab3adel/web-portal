@@ -1,0 +1,10 @@
+.course-li { overflow: hidden; }
+.course-li .details { width: 100%; background: #F6F6F6; position: relative; top: 20px; margin-top: 5px; padding: 20px; cursor: default; } 
+.pure-menu { transition: all .3s ease; }
+.course-li .details .loader { position: static; margin: 20px auto; width: 28px; height: 28px; border-width: 2.8px; }
+.course-li .details .loader:before { width: 110%; height: 110%; }
+
+.course-li .details .settings ul { padding: 0; margin: 0; }
+
+.model-subscriptions ul { list-style: none; font-size: 14px; }
+.model-subscriptions ul li:not(:last-of-type) { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #EEE; }
